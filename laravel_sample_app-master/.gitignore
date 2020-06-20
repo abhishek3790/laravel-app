@@ -1,0 +1,50 @@
+# Editor Droppings #
+####################
+.idea
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Tag files produced by exuberant ctags #
+#########################################
+TAGS
+!TAGS/
+tags
+!tags/
+
+# Env configuration #
+#####################
+
+.vagrant
+
+.php-version
+
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Compiled code/assets #
+########################
+
+compiled.php
+public/builds
+
+# Databases / logs #
+####################
+*.sqlite
+
+chromedriver.log
+libpeerconnection.log
+tests/_log
+tests/_data/dump.sql
+
+# Dependencies #
+################
+
+vendor/
+scripts/selenium-server-standalone*
