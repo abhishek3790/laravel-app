@@ -1,0 +1,31 @@
+{
+  "require": {
+    "laravel/framework": "~4.2.17",
+    "patchwork/utf8": "~1.2"
+  },
+  "require-dev": {
+    "Codeception/Codeception": "2.1.x-dev",
+    "flow/jsonpath": "~0.2"
+  },
+  "autoload": {
+    "classmap": [
+      "app/commands",
+      "app/controllers",
+      "app/models",
+      "app/database/migrations",
+      "app/database/seeds",
+      "app/tests/TestCase.php"
+    ]
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan optimize"
+    ],
+    "post-update-cmd": [
+      "php artisan optimize"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
